@@ -1,0 +1,21 @@
+{
+    "id": "followallspacecontent",
+    "name": "Automatically follow all space content",
+    "description": "Automatically switch on notifications for all space content when a user is added to the space.",
+    "keywords": [
+	"notifications"
+    ],
+    "version": "0.1.0",
+     "humhub": {
+        "minVersion": "1.9"
+    },
+    "homepage": "https://hahn-felix.de",
+    "authors": [
+	{
+	    "name": "Felix Hahn"
+	}
+    ],
+    "screenshots": [
+    ]   
+}
+
