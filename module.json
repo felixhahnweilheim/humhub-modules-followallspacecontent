@@ -2,7 +2,7 @@
     "id": "followallspacecontent",
     "name": "Automatically follow all space content",
     "description": "Automatically switch on notifications for all space content when a user is added to the space.",
-    "keywords": [:
+    "keywords": [
 	"notifications"
     ],
     "version": "0.2.0",
