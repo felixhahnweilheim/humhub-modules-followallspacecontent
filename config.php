@@ -14,11 +14,6 @@ return [
             'class' => Membership::class,
             'event' => Membership::EVENT_MEMBER_ADDED,
             'callback' => [Events::class, 'onSpaceMemberAdded']
-        ],
-        [
-            'class' => ActiveRecord::class,
-            'event' => ActiveRecord::EVENT_AFTER_INSERT,
-            'callback' => [Events::class, 'onSpaceEvent']
         ]
     ]
 ];
