@@ -1,7 +1,6 @@
 <?php
 
 use yii\base\Event;
-use yii\db\ActiveRecord;
 use humhub\modules\followallspacecontent\Events;
 use humhub\modules\space\models\Membership;
 
@@ -14,11 +13,6 @@ return [
             'class' => Membership::class,
             'event' => Membership::EVENT_MEMBER_ADDED,
             'callback' => [Events::class, 'onSpaceMemberAdded']
-        ],
-        [
-            'class' => ActiveRecord::class,
-            'event' => ActiveRecord::EVENT_AFTER_INSERT,
-            'callback' => [Events::class, 'onSpaceEvent']
         ]
     ]
 ];

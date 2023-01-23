@@ -5,9 +5,9 @@
     "keywords": [
 	"notifications"
     ],
-    "version": "0.2.0",
+    "version": "0.2.1",
      "humhub": {
-        "minVersion": "1.9"
+        "minVersion": "1.13.1"
     },
     "homepage": "https://hahn-felix.de",
     "authors": [
