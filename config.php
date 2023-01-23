@@ -1,7 +1,6 @@
 <?php
 
 use yii\base\Event;
-use yii\db\ActiveRecord;
 use humhub\modules\followallspacecontent\Events;
 use humhub\modules\space\models\Membership;
 
